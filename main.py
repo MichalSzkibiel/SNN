@@ -2,7 +2,7 @@ import numpy as np
 
 
 def euclidean_distance(a, b):
-    return np.sum(a**2 - b**2, 1)**0.5
+    return np.sum((a - b)**2, 1)**0.5
 
 
 def search_insert(arr, value, k):
